@@ -1,0 +1,159 @@
+{
+    "drinks": {
+        "hot": [
+            {
+                "name": "Espresso",
+                "price": 2.5,
+                "description": "Strong coffee served in a small cup.",
+                "ingredients": [
+                    "Coffee",
+                    "Water"
+                ],
+                "vegan_friendly": true,
+                "gluten_free": true
+            },
+            {
+                "name": "Latte",
+                "price": 3.5,
+                "description": "Coffee with steamed milk.",
+                "ingredients": [
+                    "Espresso",
+                    "Milk"
+                ],
+                "vegan_friendly": false,
+                "gluten_free": true
+            }
+        ],
+        "cold": [
+            {
+                "name": "Iced Coffee",
+                "price": 3,
+                "description": "Cold coffee with ice.",
+                "ingredients": [
+                    "Coffee",
+                    "Ice",
+                    "Water"
+                ],
+                "vegan_friendly": true,
+                "gluten_free": true
+            },
+            {
+                "name": "Lemonade",
+                "price": 2.5,
+                "description": "Fresh lemon juice with sugar and water.",
+                "ingredients": [
+                    "Lemon",
+                    "Water",
+                    "Sugar"
+                ],
+                "vegan_friendly": true,
+                "gluten_free": true
+            }
+        ]
+    },
+    "food": {
+        "sweet": [
+            {
+                "name": "Croissant",
+                "price": 1.5,
+                "description": "Buttery pastry, classic French style.",
+                "ingredients": [
+                    "Wheat",
+                    "Butter",
+                    "Milk",
+                    "Eggs"
+                ],
+                "vegan_friendly": false,
+                "gluten_free": false
+            },
+            {
+                "name": "Chocolate Cake",
+                "price": 4,
+                "description": "Moist chocolate cake slice.",
+                "ingredients": [
+                    "Wheat",
+                    "Cocoa",
+                    "Sugar",
+                    "Eggs",
+                    "Milk"
+                ],
+                "vegan_friendly": false,
+                "gluten_free": false
+            }
+        ],
+        "savory": [
+            {
+                "name": "Ham & Cheese Toast",
+                "price": 3.5,
+                "description": "Grilled sandwich with ham and cheese.",
+                "ingredients": [
+                    "Bread",
+                    "Ham",
+                    "Cheese"
+                ],
+                "vegan_friendly": false,
+                "gluten_free": false
+            },
+            {
+                "name": "Veggie Sandwich",
+                "price": 4,
+                "description": "Whole grain with veggies, avocado, cream cheese.",
+                "ingredients": [
+                    "Whole grain bread",
+                    "Veggies",
+                    "Avocado",
+                    "Cream cheese"
+                ],
+                "vegan_friendly": false,
+                "gluten_free": false
+            }
+        ]
+    },
+    "extras": {
+        "milks": [
+            {
+                "name": "Almond Milk",
+                "price": 0.5,
+                "description": "Lactose-free, plant-based milk.",
+                "ingredients": [
+                    "Water",
+                    "Almonds"
+                ],
+                "vegan_friendly": true,
+                "gluten_free": true
+            },
+            {
+                "name": "Skim Milk",
+                "price": 0.3,
+                "description": "Low-fat dairy milk.",
+                "ingredients": [
+                    "Cow milk"
+                ],
+                "vegan_friendly": false,
+                "gluten_free": true
+            }
+        ],
+        "sweeteners": [
+            {
+                "name": "Sugar",
+                "price": 0,
+                "description": "White or brown sugar.",
+                "ingredients": [
+                    "Sugar"
+                ],
+                "vegan_friendly": true,
+                "gluten_free": true
+            },
+            {
+                "name": "Stevia",
+                "price": 0.2,
+                "description": "Natural sweetener, zero-calorie.",
+                "ingredients": [
+                    "Stevia extract"
+                ],
+                "vegan_friendly": true,
+                "gluten_free": true
+            }
+        ]
+    }
+}
